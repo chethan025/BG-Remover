@@ -8,7 +8,7 @@ from tqdm import tqdm
 # --- CONFIGURATION ---
 INPUT_DIR = "./inputs"
 OUTPUT_DIR = "./outputs"
-LOCAL_MODEL_PATH = "./BiRefNet_Local"
+LOCAL_MODEL_PATH = "./BiRefNet"
 TARGET_RATIO = 0.8          # 4:5 ratio
 INTERNAL_PADDING = 0.10     # 10% padding around the object inside the frame
 device = "cuda" if torch.cuda.is_available() else "cpu"
